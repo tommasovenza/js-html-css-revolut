@@ -19,12 +19,19 @@ a {
     font-weight: bold;
 }
 
-/* HEADER */
-
-header {
-    padding: 20px;
+a:hover {
+    color: black;
 }
 
+/* HEADER */
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Logo, logo-menu */
 .logo img {
     width: 100px;
     vertical-align: bottom;
@@ -37,8 +44,17 @@ header {
 .active {
     color: black;
 }
+/* fine sezione logo, logo-menu */
 
-header .logo li {
+header li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.menu-wrapper {
+    margin-top: 8px;
 }
