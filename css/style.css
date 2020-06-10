@@ -1,6 +1,44 @@
+/* RESET CSS */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* FINE RESET */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+header {
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.logo a {
+    text-transform: uppercase;
+}
+
+.active {
+    color: black;
+}
+
+header .logo li {
+    display: inline-block;
+    margin-left: 20px;
+}
