@@ -17,7 +17,7 @@ a {
     text-decoration: none;
     color: #a0a6ad;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 a:hover {
@@ -73,6 +73,17 @@ nav li {
     color: white;
 }
 
+.target:hover {
+    background-color: white;
+    color: #eb008d;
+    border: 1px solid #eb008d;
+}
+
+.target:hover a {
+    color: #eb008d;
+    
+}
+
 .menu-wrapper .with-dropdown {
     position: relative;
 }
@@ -82,10 +93,11 @@ nav li {
     display: none;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     border-radius: 3px;
     width: 150px; 
     height: 200px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);
     /* top: 100%;  */
     /* left: 0; */
 }
