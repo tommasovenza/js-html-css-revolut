@@ -8,6 +8,7 @@
 
 /* FINE RESET */
 
+/* REGOLE GENERALI */
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +23,7 @@ a {
 a:hover {
     color: black;
 }
+/* FINE REGOLE GENERALI */
 
 /* HEADER */
 
@@ -31,7 +33,16 @@ a:hover {
     justify-content: space-around;
 }
 
-/* Logo, logo-menu */
+header li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+/* LOGO E LOGO-MENU, MENU SINISTRA */
 .logo img {
     width: 100px;
     vertical-align: bottom;
@@ -44,17 +55,9 @@ a:hover {
 .active {
     color: black;
 }
-/* fine sezione logo, logo-menu */
+/* FINE LOGO E LOGO-MENU */
 
-header li {
-    display: inline-block;
-    margin-left: 30px;
-}
-
-nav li {
-    list-style-type: none;
-}
-
+/* MENU CENTRALE DESTRA */
 .menu-wrapper {
     margin-top: 8px;
 }
