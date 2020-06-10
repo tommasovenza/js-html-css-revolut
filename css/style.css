@@ -15,7 +15,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #a4a5a5;
+    color: #a0a6ad;
     font-size: 16px;
     font-weight: bold;
 }
@@ -42,6 +42,10 @@ nav li {
     list-style-type: none;
 }
 
+.logo {
+    margin-top: 3px;
+}
+
 /* LOGO E LOGO-MENU, MENU SINISTRA */
 .logo img {
     width: 100px;
@@ -58,8 +62,15 @@ nav li {
 /* FINE LOGO E LOGO-MENU */
 
 /* MENU CENTRALE DESTRA */
-.menu-wrapper {
-    margin-top: 8px;
+
+.target {
+    background-color: #eb008d;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.target a {
+    color: white;
 }
 
 .menu-wrapper .with-dropdown {
@@ -68,13 +79,21 @@ nav li {
 
 .menu-wrapper .dropdown {
     position: absolute;
-    display: flex;
+    display: none;
     flex-direction: column;
+    justify-content: space-evenly;
     background-color: lightgray;
+    border-radius: 3px;
     width: 150px; 
+    height: 200px;
     /* top: 100%;  */
+    /* left: 0; */
 }
 
-.menu-wrapper .dropdown li {
-    margin: 15px 0 20px 20px;
+.menu-wrapper .dropdown.open {
+    display: flex;
 }
+
+/* .menu-wrapper .dropdown li {
+   padding: 10px 0;
+} */
