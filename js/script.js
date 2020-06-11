@@ -21,6 +21,21 @@ $(document).ready(
                 $(this).children('.dropdown').removeClass('open');
             }
         );
+        
+        
+        // all'evento mouseenter la freccia di fontawesome si gira 
+        $('.fa-chevron-down').mouseenter(
+            function() {
+                $(this).toggleClass('fa-chevron-up');
+            }
+        );
+        
+        $('.fa-chevron-down').mouseleave(
+            function() {
+                $(this).toggleClass('fa-chevron-up');
+            }
+        );
+        
 
     }
 );

@@ -101,6 +101,10 @@ nav li {
     left: -55%; 
 }
 
+.menu-wrapper .dropdown li {
+    margin: 0;
+}
+
 .menu-wrapper .dropdown.open {
     display: flex;
 }
@@ -114,4 +118,14 @@ nav li {
     font-size: 10px;
     position: relative;
     top: -15px;
+}
+
+.dropdown a {
+    display: block;
+    padding: 11px;
+}
+
+.dropdown a:hover {
+    background-color: #eb008d;
+    color: #fff;
 }
