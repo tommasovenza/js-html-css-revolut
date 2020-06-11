@@ -29,7 +29,7 @@ $(document).ready(
                 $(this).toggleClass('fa-chevron-up');
             }
         );
-        
+        // e si rigira all'evento mouseleave
         $('.fa-chevron-down').mouseleave(
             function() {
                 $(this).toggleClass('fa-chevron-up');
