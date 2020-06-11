@@ -81,7 +81,6 @@ nav li {
 
 .target:hover a {
     color: #eb008d;
-    
 }
 
 .menu-wrapper .with-dropdown {
@@ -98,8 +97,8 @@ nav li {
     width: 150px; 
     height: 200px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);
-    /* top: 100%;  */
-    /* left: 0; */
+    top: 100%; 
+    left: -55%; 
 }
 
 .menu-wrapper .dropdown.open {

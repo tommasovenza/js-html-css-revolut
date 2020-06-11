@@ -4,14 +4,14 @@ $(document).ready(
         // all'evento mouseEnter sull'li con classe .with-dropdown i figli dello stesso con classe dropdown aggiungi classe open
         $('.with-dropdown').mouseenter(
             function () {
-                $(this).children('.dropdown').toggleClass('open');
+                $(this).children('.dropdown').addClass('open');
             }
         ); 
 
         // all'evento click sull'li con classe .with-dropdown i figli dello stesso con classe dropdown aggiungi classe open
         $('.with-dropdown').click(
             function () {
-                $(this).children('.dropdown').removeClass('open');
+                $(this).children('.dropdown').toggleClass('open');
             }
         );
         
