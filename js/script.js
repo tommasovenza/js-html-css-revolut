@@ -24,15 +24,15 @@ $(document).ready(
         
         
         // all'evento mouseenter la freccia di fontawesome si gira 
-        $('.fa-chevron-down').mouseenter(
+        $('.touch').mouseenter(
             function() {
-                $(this).toggleClass('fa-chevron-up');
+                $('.fa-chevron-down').toggleClass('fa-chevron-up');
             }
         );
         // e si rigira all'evento mouseleave
-        $('.fa-chevron-down').mouseleave(
+        $('.touch').mouseleave(
             function() {
-                $(this).toggleClass('fa-chevron-up');
+                $('.fa-chevron-down').toggleClass('fa-chevron-up');
             }
         );
         
