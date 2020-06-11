@@ -108,3 +108,10 @@ nav li {
 /* .menu-wrapper .dropdown li {
    padding: 10px 0;
 } */
+
+.menu-wrapper span {
+    color: #eb008d;
+    font-size: 10px;
+    position: relative;
+    top: -15px;
+}
